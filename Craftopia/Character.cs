@@ -18,6 +18,60 @@ namespace Craftopia
 			mStatus = (JObject)json["plStatusSaveData"];
 		}
 
+        public byte Sex
+        {
+            get => (byte)mMake["sex"];
+            set => mMake["sex"] = value;
+        }
+
+        public byte Race
+        {
+            get => (byte)mMake["race"];
+            set => mMake["race"] = value;
+        }
+
+        public byte BodyIndex
+        {
+            get => (byte)mMake["bodyIndex"];
+            set => mMake["bodyIndex"] = value;
+        }
+
+        public byte Skin
+        {
+            get => (byte)mMake["skin"];
+            set => mMake["skin"] = value;
+        }
+
+        public byte FaceIndex
+        {
+            get => (byte)mMake["faceIndex"];
+            set => mMake["faceIndex"] = value;
+        }
+
+        public byte EyeColor
+        {
+            get => (byte)mMake["eyeColor"];
+            set => mMake["eyeColor"] = value;
+        }
+
+        public byte EyeBrowColor
+        {
+            get => (byte)mMake["eyeBrowColor"];
+            set => mMake["eyeBrowColor"] = value;
+        }
+
+        public byte HairIndex
+        {
+            get => (byte)mMake["hairIndex"];
+            set => mMake["hairIndex"] = value;
+        }
+
+        public byte HairColor
+        {
+            get => (byte)mMake["hairColor"];
+            set => mMake["hairColor"] = value;
+        }
+
 		public String Name
 		{
 			get { return (String)mMake["name"]; }

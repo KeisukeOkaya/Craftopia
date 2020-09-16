@@ -40,13 +40,37 @@
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
-                        <RowDefinition Height="10*"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition Height="4*"/>
                     </Grid.RowDefinitions>
                     <Label Content="Make"/>
-                    <Label Grid.Row="1" Content="Name"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Name"/>
                     <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Character.Name, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="Sex"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Character.Sex, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="Race"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Character.Race, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="Body"/>
+                    <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Character.BodyIndex, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Skin"/>
+                    <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding Character.Skin, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="6" Grid.Column="0" Content="Face"/>
+                    <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding Character.FaceIndex, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="7" Grid.Column="0" Content="EyeColor"/>
+                    <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding Character.EyeColor, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="8" Grid.Column="0" Content="EyeBrowColor"/>
+                    <TextBox Grid.Row="8" Grid.Column="1" Text="{Binding Character.EyeBrowColor, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="9" Grid.Column="0" Content="Hair"/>
+                    <TextBox Grid.Row="9" Grid.Column="1" Text="{Binding Character.HairIndex, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="10" Grid.Column="0" Content="HairColor"/>
+                    <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding Character.HairColor, UpdateSourceTrigger=PropertyChanged}"/>
 
-                    <Label Grid.Column="3" Content="Status"/>
+                    <Label Grid.Row="0" Grid.Column="3" Content="Status"/>
                     <Label Grid.Row="1" Grid.Column="3" Content="Level"/>
                     <TextBox Grid.Row="1" Grid.Column="4" Text="{Binding Character.Level, UpdateSourceTrigger=PropertyChanged}"/>
                     <Label Grid.Row="2" Grid.Column="3" Content="Exp"/>
