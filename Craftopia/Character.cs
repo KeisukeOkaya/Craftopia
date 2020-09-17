@@ -101,5 +101,23 @@ namespace Craftopia
 			get { return (int)mStatus["Exp"]; }
 			set { mStatus["Exp"] = value; }
 		}
+
+        public int HpIncreaseCount
+        {
+            get { return (int)mStatus["hpIncreaseCount"]; }
+            set { mStatus["hpIncreaseCount"] = value; }
+        }
+
+        public int MpIncreaseCount
+        {
+            get { return (int)mStatus["mpIncreaseCount"]; }
+            set { mStatus["mpIncreaseCount"] = value; }
+        }
+
+        public int StIncreaseCount
+        {
+            get { return (int)mStatus["stIncreaseCount"]; }
+            set { mStatus["stIncreaseCount"] = value; }
+        }
 	}
 }

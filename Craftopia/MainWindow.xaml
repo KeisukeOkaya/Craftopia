@@ -79,6 +79,13 @@
                     <TextBox Grid.Row="3" Grid.Column="4" Text="{Binding Character.Money, UpdateSourceTrigger=PropertyChanged}"/>
                     <Label Grid.Row="4" Grid.Column="3" Content="SkillPoint"/>
                     <TextBox Grid.Row="4" Grid.Column="4" Text="{Binding Character.SkillPoint, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="5" Grid.Column="3" Content="Anubis StatusUp"/>
+                    <Label Grid.Row="6" Grid.Column="3" Content="Life"/>
+                    <TextBox Grid.Row="6" Grid.Column="4" Text="{Binding Character.HpIncreaseCount, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="7" Grid.Column="3" Content="Mana"/>
+                    <TextBox Grid.Row="7" Grid.Column="4" Text="{Binding Character.MpIncreaseCount, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Grid.Row="8" Grid.Column="3" Content="Stamina"/>
+                    <TextBox Grid.Row="8" Grid.Column="4" Text="{Binding Character.StIncreaseCount, UpdateSourceTrigger=PropertyChanged}"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Equipment">
